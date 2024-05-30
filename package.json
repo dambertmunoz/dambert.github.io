@@ -1,11 +1,12 @@
 {
 	"name": "reactfolio",
-	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"version": "1.1.1",
+	"description": "Personal CV Dambert",
+	"homepage": "https://dambertmunoz.github.io",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Dambert",
+		"email": "dmsantillan2705@gmail.com",
+		"url": "dambertmunoz.github.io"
 	},
 	"license": "MIT",
 	"private": true,
@@ -28,6 +29,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -54,5 +57,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.1.1"
 	}
 }
