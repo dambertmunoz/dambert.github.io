@@ -1,84 +1,84 @@
 const INFO = {
-	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
-	},
+    main: {
+        title: "Dambert Muñoz Santillana",
+        name: "Dambert Muñoz Santillana",
+        email: "dmsantillana2705@gmail.com",
+        logo: "../logo.webp",
+    },
 
-	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
-	},
+    socials: {
+        twitter: "https://twitter.com/",
+        github: "https://github.com/dambertmunoz?tab=repositories",
+        linkedin: "https://linkedin.com/in/dambert-m-4b772397",
+        instagram: "https://instagram.com/",
+        stackoverflow: "https://stackoverflow.com/",
+        facebook: "https://facebook.com/",
+    },
 
-	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
-	},
+    homepage: {
+        title: "Senior iOS Developer | iOS Solutions Architect | Mobile Engineering Lead",
+        description:
+            "I am a senior iOS developer with 8 years of experience specializing in the iOS platform. My expertise lies in SwiftUI and UIKit, and I have a proven track record in developing scalable, secure, and reliable mobile applications. I excel at solving complex problems and am committed to writing high-quality code that adheres to best practices and industry standards. My experience spans various banking apps across Spain, Peru, and Argentina, as well as fintech startups in the US. I am always eager to tackle new challenges and continue growing as a developer.",
+    },
 
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
+    about: {
+        title: "I’m Dambert Muñoz Santillana, living in Peru, shaping the future of mobile development.",
+        description:
+            "With a strong foundation in iOS development, I've contributed to numerous projects, particularly in the banking sector and fintech startups. I pride myself on my ability to deliver high-performance, reliable, and user-friendly applications. I'm always open to collaborating on new ideas and enhancing existing projects. Feel free to explore my work and reach out for potential collaborations.",
+    },
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
+    articles: {
+        title: "Sharing knowledge and inspiring the next generation of developers.",
+        description:
+            "A collection of my insights on iOS development, software architecture, and best practices in the industry.",
+    },
 
-	projects: [
-		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+    projects: [
+        {
+            title: "iOS Swift Architect/ Senior iOS at Gridam Tech",
+            description:
+                "Support for many tech companies to grow mobile apps. Scalability, Maintainability, etc. Design features for high performance.",
+            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+            linkText: "View Project",
+            link: "https://github.com/dambertmunoz",
+        },
 
-		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+        {
+            title: "Senior iOS Developer at Distillery",
+            description:
+                "Analyzed new features and coordinated with other teams to improve products. Created complex frameworks using UIKit and SwiftUI.",
+            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+            linkText: "View Project",
+            link: "https://github.com/dambertmunoz",
+        },
 
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+        {
+            title: "Senior iOS Developer at Globant",
+            description:
+                "iOS Lead. Framework creation and distribution by Pods, Carthage, and SPM. Implemented design patterns, CoreData, and Apollo.",
+            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+            linkText: "View Project",
+            link: "https://github.com/dambertmunoz",
+        },
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+        {
+            title: "Senior iOS Developer at Coderio Software Company",
+            description:
+                "Developed projects like Kavak App México, Wong App, and Metro App using UIKit, SwiftUI, Cocoapods, Carthage, and SPM.",
+            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+            linkText: "View Project",
+            link: "https://github.com/dambertmunoz",
+        },
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-	],
+        {
+            title: "iOS Lead at Hapi App",
+            description:
+                "Created a new app version with SwiftUI. Analyzed new features and coordinated with other teams to improve the product.",
+            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+            linkText: "View Project",
+            link: "https://apps.apple.com/co/app/hapi-trade-de-acciones-y-etfs/id1532828502",
+        },
+    ],
 };
 
 export default INFO;

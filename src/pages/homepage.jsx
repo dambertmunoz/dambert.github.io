@@ -8,6 +8,7 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -104,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="homepage.jpeg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -115,12 +116,12 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -134,7 +135,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -153,7 +154,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -170,7 +171,7 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div className="homepage-after-title">
+						{/* <div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -191,7 +192,7 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
-						</div>
+						</div> */}
 
 						<div className="page-footer">
 							<Footer />
